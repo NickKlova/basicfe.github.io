@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кльова М.М. Варіант 88. Лабораторна робота №5.</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main>
+        <div id="task1">
+            <div class="form-container">
+                <h4>Форма для заповнення:</h4>
+                <form class="form">
+                    <div class="form-input">
+                        <input type="text" class="initials" placeholder="ПІБ">
+                    </div>
+                    <div class="form-input">
+                        <input type="text" class="group" placeholder="Група">
+                    </div>
+                    <div class="form-input">
+                        <input type="text" class="phonenumber" placeholder="Номер телефону">
+                    </div>
+                    <div class="form-input">
+                        <input type="text" class="faculty" placeholder="Факультет">
+                    </div>
+                    <div class="form-input">
+                        <input type="text" class="address" placeholder="Адреса">
+                    </div>
+                    <button type="button" onclick="checkForm()" class="btn">Підтвердити</button>
+                </form>
+            </div> 
+            <div class="data">
+                <h3>Введені дані:</h5>
+                <p>ПІБ: <span class="data-fullname"></span></p>
+                <p>Група: <span class="data-group"></span></p>
+                <p>Номер телефону: <span class="data-phonenumber"></span></p>
+                <p>Факультет: <span class="data-faculty"></span></p>
+                <p>Адреса: <span class="data-address"></span></p>
+            </div>
+        </div>
+
+        <div id="task-2">
+            <div class="current-color">
+                <label for='tool'>Оберіть колір</label>
+                <input type="color" id="tool">
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template: 1fr 4fr 1fr / 1fr;
+    min-height: 100%;
+}
+
+.header {
+    background-color: #FED6BC;
+}
+
+.main {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+}
+
+.section1 {
+    background-color: #FFFADD;
+}
+
+.section2 {
+    background-color: #F6FFF8;
+}
+
+.section3 {
+    background-color: #B5F2EA;
+}
+
+.footer {
+    background-color: #FED6BC;
+}

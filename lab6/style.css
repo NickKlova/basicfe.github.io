@@ -1,0 +1,10 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-data {
+    margin: 10px;
+    border: 1px solid black;
+}

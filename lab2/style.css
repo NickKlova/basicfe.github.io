@@ -1,0 +1,64 @@
+td, th {
+border: 1px solid black;
+height: 2rem;
+}
+
+table {
+border-collapse: collapse;
+table-layout: fixed;
+width: 800px;
+}
+
+.firstcolor {
+    background-color: #888f8f;
+}
+
+.secondcolor {
+    background-color: #f5f588;
+}
+
+.firstrowcolor {
+    color: #3439FF;
+}
+
+.firstrowcolor:hover {
+    color: #E38D24;
+}
+
+.secondrowcolor {
+    color: #E38D24
+}
+
+.secondrowcolor:hover {
+    color: #3439FF
+}
+
+
+.square {
+height: 150px;
+width: 150px;
+border: solid black;
+border-radius: 5px;
+}
+
+.square-1position {
+background-color: #f1b584;
+position: static;
+}
+
+.square-2position {
+background-color: #c99a99a2;
+position: relative;
+bottom: 80px;
+left: 80px;
+}
+
+.square-1transform {
+background-color: #f1b584;
+transform: translate(250px, -315px);
+}
+
+.square-2transform {
+background-color: #c99a99a2;
+transform: translate(320px, -390px);
+}
