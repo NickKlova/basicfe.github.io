@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lab7-build/static/css/main.6afab16b.css",
-    "main.js": "/lab7-build/static/js/main.e7d7cf91.js",
-    "index.html": "/lab7-build/index.html",
-    "main.6afab16b.css.map": "/lab7-build/static/css/main.6afab16b.css.map",
-    "main.e7d7cf91.js.map": "/lab7-build/static/js/main.e7d7cf91.js.map"
+    "main.css": "/basicfe.github.io/lab7-build/static/css/main.6afab16b.css",
+    "main.js": "/basicfe.github.io/lab7-build/static/js/main.e7d7cf91.js",
+    "index.html": "/basicfe.github.io/lab7-build/index.html",
+    "main.6afab16b.css.map": "/basicfe.github.io/lab7-build/static/css/main.6afab16b.css.map",
+    "main.e7d7cf91.js.map": "/basicfe.github.io/lab7-build/static/js/main.e7d7cf91.js.map"
   },
   "entrypoints": [
-    "lab7-build/static/css/main.6afab16b.css",
-    "lab7-build/static/js/main.e7d7cf91.js"
+    "basicfe.github.io/lab7-build/static/css/main.6afab16b.css",
+    "basicfe.github.io/lab7-build/static/js/main.e7d7cf91.js"
   ]
 }
